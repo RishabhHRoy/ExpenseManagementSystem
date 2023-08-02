@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="Fragments.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="Fragments.BudgetFragment"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" />
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="Fragments.ExpenseFragment"
+        android:label="fragment_expense"
+        tools:layout="@layout/fragment_expense" />
+    <fragment
+        android:id="@+id/receiptFragment"
+        android:name="Fragments.ReceiptFragment"
+        android:label="fragment_receipt"
+        tools:layout="@layout/fragment_receipt" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="Fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="Fragments.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="Fragments.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="Fragments.PhoneFragment"
+        android:label="fragment_phone"
+        tools:layout="@layout/fragment_phone" />
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="Fragments.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/gmapFragment"
+        android:name="Fragments.GMapFragment"
+        android:label="fragment_gmap"
+        tools:layout="@layout/fragment_g_map" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="Fragments.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="Fragments.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/socialnetworkFragment"
+        android:name="Fragments.SocialNetworkFragment"
+        android:label="fragment_socialnetwork"
+        tools:layout="@layout/fragment_social_network" />
+    <fragment
+        android:id="@+id/rssFragment"
+        android:name="Fragments.RssFragment"
+        android:label="fragment_rss"
+        tools:layout="@layout/fragment_rss" />
+</navigation>

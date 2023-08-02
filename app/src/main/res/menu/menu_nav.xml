@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Navigation">
+            <menu>
+        <item android:title="@string/menu_nav_1"
+            android:id="@+id/categoryFragment"
+            android:icon="@drawable/baseline_category_24"
+            />
+        <item android:title="@string/menu_nav_2"
+            android:id="@+id/expenseFragment"
+            android:icon="@drawable/baseline_attach_money_24"
+            />
+        <item android:title="@string/menu_nav_3"
+            android:id="@+id/budgetFragment"
+            android:icon="@drawable/baseline_money_off_24"
+            />
+        <item android:title="@string/menu_nav_4"
+            android:id="@+id/receiptFragment"
+            android:icon="@drawable/baseline_receipt_24"
+            />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile">
+            <menu>
+                <item android:title="@string/menu_profile_1"
+                    android:id="@+id/homeFragment"
+                    android:icon="@drawable/baseline_home_24"
+                    />
+                <item android:title="@string/menu_profile_2"
+                    android:id="@+id/settingsFragment"
+                    android:icon="@drawable/baseline_settings_24"
+                    />
+                <item android:title="@string/menu_profile_3"
+                    android:id="@+id/logoutFragment"
+                    android:icon="@drawable/baseline_logout_24"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Support">
+            <menu>
+                <item android:title="@string/menu_support_1"
+                    android:id="@+id/supportFragment"
+                    android:icon="@drawable/baseline_support_agent_24"
+                    />
+                <item android:title="@string/menu_support_2"
+                    android:id="@+id/phoneFragment"
+                    android:icon="@drawable/baseline_phone_24"
+                    />
+                <item android:title="@string/menu_support_3"
+                    android:id="@+id/gmapFragment"
+                    android:icon="@drawable/baseline_map_24"
+                    />
+                <item android:title="@string/menu_support_4"
+                    android:id="@+id/webviewFragment"
+                    android:icon="@drawable/baseline_pageview_24"
+                    />
+                <item android:title="@string/menu_support_5"
+                    android:id="@+id/videoFragment"
+                    android:icon="@drawable/baseline_video_file_24"
+                    />
+                <item android:title="@string/menu_support_6"
+                    android:id="@+id/calendarFragment"
+                    android:icon="@drawable/baseline_calendar_month_24"
+                    />
+                <item android:title="@string/menu_support_7"
+                    android:id="@+id/socialnetworkFragment"
+                    android:icon="@drawable/baseline_person_4_24"
+                    />
+                <item android:title="@string/rss"
+                    android:id="@+id/rssFragment"
+                    android:icon="@drawable/baseline_rss_feed_24"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>

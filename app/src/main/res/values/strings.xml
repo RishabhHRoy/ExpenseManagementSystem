@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ExpenseManagementSystem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_profile_1">Home</string>
+    <string name="menu_profile_2">Settings</string>
+    <string name="menu_profile_3">Logout</string>
+
+    <string name="menu_nav_1">Categories</string>
+    <string name="menu_nav_2">Expense</string>
+    <string name="menu_nav_3">Budget</string>
+    <string name="menu_nav_4">Receipts</string>
+
+    <string name="menu_support_1">Email Us</string>
+    <string name="menu_support_2">Call Us</string>
+    <string name="menu_support_3">Visit Us</string>
+    <string name="menu_support_4">Our Website</string>
+    <string name="menu_support_5">Our Video</string>
+    <string name="menu_support_6">Calendar</string>
+    <string name="menu_support_7">Social Network</string>
+
+    <string name="empty_list_text">Empty List</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="rss">Rss</string>
+
+    <string-array name="frequency_options">
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>

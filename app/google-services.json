@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "207733294567",
+    "project_id": "ems-android-41d9f",
+    "storage_bucket": "ems-android-41d9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207733294567:android:bb828498796f1551f92942",
+        "android_client_info": {
+          "package_name": "com.ais.ems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207733294567-0lrodgf9llp5jkoi3et5tpsf829hm5bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD--igt0_A11z1r-xsOpUCMo4Len7LUGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207733294567-0lrodgf9llp5jkoi3et5tpsf829hm5bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207733294567:android:d1be457a9a40c925f92942",
+        "android_client_info": {
+          "package_name": "com.example.expensemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207733294567-0lrodgf9llp5jkoi3et5tpsf829hm5bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD--igt0_A11z1r-xsOpUCMo4Len7LUGf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207733294567-0lrodgf9llp5jkoi3et5tpsf829hm5bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

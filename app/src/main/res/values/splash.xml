@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EMS.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.ExpenseManagementSystem</item>
+    </style>
+</resources>

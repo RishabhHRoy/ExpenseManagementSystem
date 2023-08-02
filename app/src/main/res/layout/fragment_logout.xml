@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.LogoutFragment">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_height="90sp"
+            android:layout_width="90sp"
+            android:background="@color/transparent"
+
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:id="@+id/logoutText"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:text="Are you sure want to Logout?"
+            android:layout_below="@+id/back"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/logoutBtn"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:src="@drawable/baseline_logout_24"
+            android:layout_below="@+id/logoutText"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
